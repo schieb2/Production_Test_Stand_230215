@@ -1,0 +1,6 @@
+Update to v2:
+	HMP4040 Channel Update to enable us to commission the Board Test Stand
+		Channel 1 - "Control Power" @ 24V, 3A
+		Channel 2 - "DC Bus" @ 24V, 3A
+	Update HMP4040 vi's to match this wiring change
+		

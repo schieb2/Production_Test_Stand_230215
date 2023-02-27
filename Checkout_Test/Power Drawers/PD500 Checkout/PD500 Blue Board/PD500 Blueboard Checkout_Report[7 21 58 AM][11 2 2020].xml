@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="iso-8859-1" ?><?xml-stylesheet type="text/xsl" href="C:\Program Files (x86)\National Instruments\TestStand 2019\Components\Models\TestStandModels\ATML\StyleSheets\tr5_horizontal.xsl"?>
+
+<trc:TestResultsCollection xmlns:trc="urn:IEEE-1636.1:2011:01:TestResultsCollection" xmlns:tr="urn:IEEE-1636.1:2011:01:TestResults" xmlns:c="urn:IEEE-1671:2010:Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="www.ni.com/TestStand/ATMLTestResults/2.0">
+<trc:TestResults uuid="7a510d73-1d20-11eb-aa82-1cbfc054684e" xmlns:trc="urn:IEEE-1636.1:2011:01:TestResultsCollection" xmlns:tr="urn:IEEE-1636.1:2011:01:TestResults" xmlns:c="urn:IEEE-1671:2010:Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ts="www.ni.com/TestStand/ATMLTestResults/2.0">
+	<tr:Personnel>
+		<tr:SystemOperator ID = "administrator" name = "administrator"/>
+	</tr:Personnel>
+	<tr:ResultSet ID="4" name = "C:\Users\Ken Murillo\Box\Manufacturing\Quality\Production Validation Tests\LabVIEW Projects\NI Test Stand\Checkout Test\Power Drawers\PD500 Checkout\PD500 Blue Board\PD500 Blueboard Checkout.seq#MainSequence" startDateTime = "2020-11-02T07:21:58.175" endDateTime = "2020-11-02T07:31:30.245">
+		<tr:Extension>
+			<ts:TSStepProperties>
+				<ts:StepType>SequenceCall</ts:StepType>
+				<ts:StepGroup>Main</ts:StepGroup>
+				<ts:BlockLevel value='0'/>
+				<ts:StepCausedSequenceFailure value='true'/>
+				<ts:Index value='8'/>
+				<ts:TotalTime value='572.071'/>
+				<ts:ModuleTime value='572.071'/>
+			</ts:TSStepProperties>
+		</tr:Extension>
+		<tr:Outcome value="Failed" />
+		<tr:SessionAction ID = "5" name = "Message Popup" startDateTime = "2020-11-02T07:21:58.256"  endDateTime = "2020-11-02T07:21:59.295"  testReferenceID="ID#:y2sASH8N6xGqfBy/wFRoTC">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ButtonHit">
+						<c:Datum value = "1" xsi:type="ts:TS_double" flags = "0x2000"/>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>MessagePopup</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='0'/>
+					<ts:TotalTime value='1.03933'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "6" name = "Serial Configure" startDateTime = "2020-11-02T07:21:59.296"  endDateTime = "2020-11-02T07:21:59.827"  testReferenceID="ID#:zyl0qMLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='1'/>
+					<ts:TotalTime value='0.530599'/>
+					<ts:ModuleTime value='0.530389'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "7" name = "Power Inverter On" startDateTime = "2020-11-02T07:21:59.838"  endDateTime = "2020-11-02T07:21:59.901"  testReferenceID="ID#:KH5YfVnX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='2'/>
+					<ts:TotalTime value='0.0628636'/>
+					<ts:ModuleTime value='0.0624658'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "8" name = "Power Supply Initialize" startDateTime = "2020-11-02T07:21:59.901"  endDateTime = "2020-11-02T07:22:00.160"  testReferenceID="ID#:0Cl0qMLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='3'/>
+					<ts:TotalTime value='0.258685'/>
+					<ts:ModuleTime value='0.258582'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "9" name = "Serial Initialize" startDateTime = "2020-11-02T07:22:00.169"  endDateTime = "2020-11-02T07:22:00.170"  testReferenceID="ID#:0Sl0qMLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='4'/>
+					<ts:TotalTime value='0.0012486'/>
+					<ts:ModuleTime value='0.0011369'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "10" name = "Set Power Supply" startDateTime = "2020-11-02T07:22:00.170"  endDateTime = "2020-11-02T07:22:01.471"  testReferenceID="ID#:0il0qMLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='5'/>
+					<ts:TotalTime value='1.30035'/>
+					<ts:ModuleTime value='1.30028'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "11" name = "Wait" startDateTime = "2020-11-02T07:22:01.471"  endDateTime = "2020-11-02T07:22:08.471"  testReferenceID="ID#:0yl0qMLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_Wait</ts:StepType>
+					<ts:StepGroup>Setup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='6'/>
+					<ts:TotalTime value='7.0002'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:Test ID = "12" name = "Seial Test Blue Board" startDateTime = "2020-11-02T07:22:08.475"  endDateTime = "2020-11-02T07:22:09.976"  testReferenceID="ID#:pHHS2MLN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='0'/>
+					<ts:TotalTime value='1.50163'/>
+					<ts:ModuleTime value='1.50142'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+			<tr:TestResult ID = "tr-7a510d48-1d20-11eb-aa82-1cbfc054684e" name = "Expected Result">
+				<tr:TestData>
+					<c:Datum xsi:type="ts:TS_string" flags = "0x2000">
+						<c:Value><![CDATA[m\r
+\r
+\r
+----------------------------------------------\r
+EPC CONTROL BOARD TEST MENU: \r
+----------------------------------------------\r
+a - Report ADC Results in Counts\r
+b - Repeat Single ADC Result\r
+c - Report ADC Results in Volts\r
+d - Clear Fault bits\r
+e - Report the Fault bits\r
+f - Run EEPROM Test\r
+g - Run SRAM Test\r
+h - Run Expansion Tests\r
+i - Turn Debug LEDs on/off\r
+j - Get Digital Input Pin State\r
+k - Set Digital Output Pin State\r
+l - Set Relay Driver State\r
+n - Boot Enable Pin State\r
+o - Run CAN Test\r
+p - Read QEP Input Bits\r
+q - Toggle Inverter A Output on/off\r
+r - Toggle Inverter B Output on/off\r
+s - Toggle Half Bridge Output on/off\r
+t - Set PWM leg duty cycle\r
+u - Real Time Clock\r
+v - Watchdog Control\r
+w - Test Interrupt Lines\r
+x - Read HALLs\r
+y - Test FPGA Read/Write\r
+z - Report Software/FPGA Revs\r
+m - Display this menu\r
+0 - Report Internal RAM Zeroed\r
+1 - Report SRAM Zeroed\r
+2 - Report SRAM Initialized\r
+3 - Run Quick EEPROM Test\r
+4 - Report Temperature and Humidity\r
+> ]]></c:Value>
+					</c:Datum>
+				</tr:TestData>
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d49-1d20-11eb-aa82-1cbfc054684e" name = "Actual Result">
+				<tr:TestData>
+					<c:Datum xsi:type="ts:TS_string" flags = "0x2000">
+						<c:Value><![CDATA[m\r
+\r
+\r
+----------------------------------------------\r
+EPC CONTROL BOARD TEST MENU: \r
+----------------------------------------------\r
+a - Report ADC Results in Counts\r
+b - Repeat Single ADC Result\r
+c - Report ADC Results in Volts\r
+d - Clear Fault bits\r
+e - Report the Fault bits\r
+f - Run EEPROM Test\r
+g - Run SRAM Test\r
+h - Run Expansion Tests\r
+i - Turn Debug LEDs on/off\r
+j - Get Digital Input Pin State\r
+k - Set Digital Output Pin State\r
+l - Set Relay Driver State\r
+n - Boot Enable Pin State\r
+o - Run CAN Test\r
+p - Read QEP Input Bits\r
+q - Toggle Inverter A Output on/off\r
+r - Toggle Inverter B Output on/off\r
+s - Toggle Half Bridge Output on/off\r
+t - Set PWM leg duty cycle\r
+u - Real Time Clock\r
+v - Watchdog Control\r
+w - Test Interrupt Lines\r
+x - Read HALLs\r
+y - Test FPGA Read/Write\r
+z - Report Software/FPGA Revs\r
+m - Display this menu\r
+0 - Report Internal RAM Zeroed\r
+1 - Report SRAM Zeroed\r
+2 - Report SRAM Initialized\r
+3 - Run Quick EEPROM Test\r
+4 - Report Temperature and Humidity\r
+> ]]></c:Value>
+					</c:Datum>
+				</tr:TestData>
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "13" name = "Temperature Test" startDateTime = "2020-11-02T07:22:09.977"  endDateTime = "2020-11-02T07:22:13.729"  testReferenceID="ID#:+7VIFxHY6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='1'/>
+					<ts:TotalTime value='3.75218'/>
+					<ts:ModuleTime value='3.75172'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+			<tr:TestResult ID = "tr-7a510d4a-1d20-11eb-aa82-1cbfc054684e" name = "Temperature">
+				<tr:TestData>
+					<c:Datum value = "22.917145" xsi:type="ts:TS_double" nonStandardUnit="C" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "C" value = "18" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "C" value = "35" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "18" xsi:type="c:double" />
+									<ts:High value = "35" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d4b-1d20-11eb-aa82-1cbfc054684e" name = "Relative Humidity">
+				<tr:TestData>
+					<c:Datum value = "32.906082" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "15" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "90" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "15" xsi:type="c:double" />
+									<ts:High value = "90" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "14" name = "DC Precharge/Contact Test" startDateTime = "2020-11-02T07:22:13.730"  endDateTime = "2020-11-02T07:22:33.294"  testReferenceID="ID#:gajKMcbN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='2'/>
+					<ts:TotalTime value='19.5648'/>
+					<ts:ModuleTime value='19.5647'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "15" name = "INV A Current Sense Test" startDateTime = "2020-11-02T07:22:33.307"  endDateTime = "2020-11-02T07:22:39.154"  testReferenceID="ID#:uNW130jX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='3'/>
+					<ts:TotalTime value='5.84629'/>
+					<ts:ModuleTime value='5.84573'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+			<tr:TestResult ID = "tr-7a510d4c-1d20-11eb-aa82-1cbfc054684e" name = "Sense U">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d4d-1d20-11eb-aa82-1cbfc054684e" name = "Sense V">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d4e-1d20-11eb-aa82-1cbfc054684e" name = "Sense W">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "16" name = "INV B Current Sense Test" startDateTime = "2020-11-02T07:22:39.154"  endDateTime = "2020-11-02T07:22:44.987"  testReferenceID="ID#:HxNO+EnX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='4'/>
+					<ts:TotalTime value='5.83264'/>
+					<ts:ModuleTime value='5.83222'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+			<tr:TestResult ID = "tr-7a510d4f-1d20-11eb-aa82-1cbfc054684e" name = "Sense U">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d50-1d20-11eb-aa82-1cbfc054684e" name = "Sense V">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d51-1d20-11eb-aa82-1cbfc054684e" name = "Sense W">
+				<tr:TestData>
+					<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum value = "1.49" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum value = "1.51" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "1.49" xsi:type="c:double" />
+									<ts:High value = "1.51" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "17" name = "Local Sense Test" startDateTime = "2020-11-02T07:22:44.988"  endDateTime = "2020-11-02T07:23:08.795"  testReferenceID="ID#:2iyuu0rX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:StepCausedSequenceFailure value='true'/>
+					<ts:Index value='5'/>
+					<ts:TotalTime value='23.8071'/>
+					<ts:ModuleTime value='23.8069'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Failed" />
+		</tr:Test>
+		<tr:SessionAction ID = "18" name = "Thermistors Test" startDateTime = "2020-11-02T07:23:11.754"  endDateTime = "2020-11-02T07:29:32.731"  testReferenceID="ID#:wV5U/B0d6xGqghy/wFRoTC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='6'/>
+					<ts:TotalTime value='380.977'/>
+					<ts:ModuleTime value='380.977'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:Test ID = "19" name = "Digital In Test" startDateTime = "2020-11-02T07:29:36.632"  endDateTime = "2020-11-02T07:29:36.834"  testReferenceID="ID#:OMeGGU7X6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='7'/>
+					<ts:TotalTime value='0.201893'/>
+					<ts:ModuleTime value='0.201667'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "20" name = "E Stop Test" startDateTime = "2020-11-02T07:29:36.835"  endDateTime = "2020-11-02T07:29:37.506"  testReferenceID="ID#:QeHQHVPX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='8'/>
+					<ts:TotalTime value='0.671217'/>
+					<ts:ModuleTime value='0.671047'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "21" name = "Thermal Fault Test" startDateTime = "2020-11-02T07:29:37.507"  endDateTime = "2020-11-02T07:30:04.034"  testReferenceID="ID#:W8rcMVPX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='9'/>
+					<ts:TotalTime value='26.527'/>
+					<ts:ModuleTime value='26.5267'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "22" name = "Fan Command Test" startDateTime = "2020-11-02T07:30:04.039"  endDateTime = "2020-11-02T07:30:07.366"  testReferenceID="ID#:oYgdr1PX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='10'/>
+					<ts:TotalTime value='3.32661'/>
+					<ts:ModuleTime value='3.32629'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "23" name = "Pump Relay Test" startDateTime = "2020-11-02T07:30:07.368"  endDateTime = "2020-11-02T07:30:14.573"  testReferenceID="ID#:H3s46VPX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='11'/>
+					<ts:TotalTime value='7.20492'/>
+					<ts:ModuleTime value='7.20442'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "24" name = "Shunt Trip Test" startDateTime = "2020-11-02T07:30:14.579"  endDateTime = "2020-11-02T07:30:32.408"  testReferenceID="ID#:7m0t/lPX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='12'/>
+					<ts:TotalTime value='17.8288'/>
+					<ts:ModuleTime value='17.8286'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "25" name = "MX1 Test" startDateTime = "2020-11-02T07:30:32.414"  endDateTime = "2020-11-02T07:30:36.693"  testReferenceID="ID#:gv7DGlTX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='13'/>
+					<ts:TotalTime value='4.27839'/>
+					<ts:ModuleTime value='4.27804'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "26" name = "Vref Test Blue Board" startDateTime = "2020-11-02T07:30:36.702"  endDateTime = "2020-11-02T07:30:44.301"  testReferenceID="ID#:20r54lfX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='14'/>
+					<ts:TotalTime value='7.59935'/>
+					<ts:ModuleTime value='7.59881'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Failed" />
+			<tr:TestResult ID = "tr-7a510d52-1d20-11eb-aa82-1cbfc054684e" name = "BB 3.3V PS">
+				<tr:TestData>
+					<c:Datum value = "3.29" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "3.2" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "3.4" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "3.2" xsi:type="c:double" />
+									<ts:High value = "3.4" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d53-1d20-11eb-aa82-1cbfc054684e" name = "BB 15V PS">
+				<tr:TestData>
+					<c:Datum value = "15.15" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "14.8" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "15.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "14.8" xsi:type="c:double" />
+									<ts:High value = "15.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d54-1d20-11eb-aa82-1cbfc054684e" name = "BB -15V PS">
+				<tr:TestData>
+					<c:Datum value = "-15.11" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-15.6" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-14" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-15.6" xsi:type="c:double" />
+									<ts:High value = "-14" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d55-1d20-11eb-aa82-1cbfc054684e" name = "BB 5V PS">
+				<tr:TestData>
+					<c:Datum value = "4.99" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "4.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "5.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "4.9" xsi:type="c:double" />
+									<ts:High value = "5.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d56-1d20-11eb-aa82-1cbfc054684e" name = "BB 24V PS">
+				<tr:TestData>
+					<c:Datum value = "24.05" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "23" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "24.2" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "23" xsi:type="c:double" />
+									<ts:High value = "24.2" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "27" name = "DC Bus Test" startDateTime = "2020-11-02T07:30:44.311"  endDateTime = "2020-11-02T07:31:00.104"  testReferenceID="ID#:spIOlVTX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='15'/>
+					<ts:TotalTime value='15.7934'/>
+					<ts:ModuleTime value='15.7928'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Failed" />
+			<tr:TestResult ID = "tr-7a510d57-1d20-11eb-aa82-1cbfc054684e" name = "INVA 0V">
+				<tr:TestData>
+					<c:Datum value = "1.5" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-0.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.12" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-0.1" xsi:type="c:double" />
+									<ts:High value = "0.12" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d58-1d20-11eb-aa82-1cbfc054684e" name = "INVB 0V">
+				<tr:TestData>
+					<c:Datum value = "0" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-0.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.12" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-0.1" xsi:type="c:double" />
+									<ts:High value = "0.12" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Passed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d59-1d20-11eb-aa82-1cbfc054684e" name = "INVA 30V">
+				<tr:TestData>
+					<c:Datum value = "0" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.17" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.25" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "0.17" xsi:type="c:double" />
+									<ts:High value = "0.25" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d5a-1d20-11eb-aa82-1cbfc054684e" name = "INVB 30V">
+				<tr:TestData>
+					<c:Datum value = "0" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.17" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "0.25" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "0.17" xsi:type="c:double" />
+									<ts:High value = "0.25" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "28" name = "PWM Test" startDateTime = "2020-11-02T07:31:00.105"  endDateTime = "2020-11-02T07:31:14.913"  testReferenceID="ID#:5b6SAZL26hGqbRy/wFRoTC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>NI_MultipleNumericLimitTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='16'/>
+					<ts:TotalTime value='14.8087'/>
+					<ts:ModuleTime value='14.808'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Failed" />
+			<tr:TestResult ID = "tr-7a510d5b-1d20-11eb-aa82-1cbfc054684e" name = "T1 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "-0.001970230731" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-8" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-6.5" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-8" xsi:type="c:double" />
+									<ts:High value = "-6.5" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d5c-1d20-11eb-aa82-1cbfc054684e" name = "T1 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02097999453316" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.95" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.95" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d5d-1d20-11eb-aa82-1cbfc054684e" name = "T1 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "22222.22222222" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2800" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2950" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2800" xsi:type="c:double" />
+									<ts:High value = "2950" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d5e-1d20-11eb-aa82-1cbfc054684e" name = "T1 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "16.53645833333" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "14" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "16" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "14" xsi:type="c:double" />
+									<ts:High value = "16" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d5f-1d20-11eb-aa82-1cbfc054684e" name = "T2 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "0.000719624173" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-5.25" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-4.7" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-5.25" xsi:type="c:double" />
+									<ts:High value = "-4.7" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d60-1d20-11eb-aa82-1cbfc054684e" name = "T2 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02193547066525" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.9" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d61-1d20-11eb-aa82-1cbfc054684e" name = "T2 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "24987.79892631" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2480" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2520" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2480" xsi:type="c:double" />
+									<ts:High value = "2520" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d62-1d20-11eb-aa82-1cbfc054684e" name = "T2 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "24.89019033675" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "24.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "25.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "24.9" xsi:type="c:double" />
+									<ts:High value = "25.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d63-1d20-11eb-aa82-1cbfc054684e" name = "T3 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "0.00192530223" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-5.26" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-4.7" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-5.26" xsi:type="c:double" />
+									<ts:High value = "-4.7" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d64-1d20-11eb-aa82-1cbfc054684e" name = "T3 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02218824659965" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.9" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d65-1d20-11eb-aa82-1cbfc054684e" name = "T3 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "20336.29054448" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2480" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2520" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2480" xsi:type="c:double" />
+									<ts:High value = "2520" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d66-1d20-11eb-aa82-1cbfc054684e" name = "T3 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "86.54839276645" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "24.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "25.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "24.9" xsi:type="c:double" />
+									<ts:High value = "25.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d67-1d20-11eb-aa82-1cbfc054684e" name = "T4 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "-0.00045917103" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-5.26" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-4.7" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-5.26" xsi:type="c:double" />
+									<ts:High value = "-4.7" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d68-1d20-11eb-aa82-1cbfc054684e" name = "T4 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02121368499637" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.9" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d69-1d20-11eb-aa82-1cbfc054684e" name = "T4 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "12906.47844719" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2480" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2520" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2480" xsi:type="c:double" />
+									<ts:High value = "2520" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6a-1d20-11eb-aa82-1cbfc054684e" name = "T4 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "87.19435341568" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "24.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "25.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "24.9" xsi:type="c:double" />
+									<ts:High value = "25.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6b-1d20-11eb-aa82-1cbfc054684e" name = "T5 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "5.48844e-05" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-5.26" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-4.7" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-5.26" xsi:type="c:double" />
+									<ts:High value = "-4.7" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6c-1d20-11eb-aa82-1cbfc054684e" name = "T5 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02139147820893" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.9" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6d-1d20-11eb-aa82-1cbfc054684e" name = "T5 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "22222.22222222" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2480" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2520" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2480" xsi:type="c:double" />
+									<ts:High value = "2520" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6e-1d20-11eb-aa82-1cbfc054684e" name = "T5 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "55.55555555556" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "24.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "25.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "24.9" xsi:type="c:double" />
+									<ts:High value = "25.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d6f-1d20-11eb-aa82-1cbfc054684e" name = "T6 (VDC)">
+				<tr:TestData>
+					<c:Datum value = "-0.001106363452" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "-5.26" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "-4.7" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "-5.26" xsi:type="c:double" />
+									<ts:High value = "-4.7" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d70-1d20-11eb-aa82-1cbfc054684e" name = "T6 (VRMS)">
+				<tr:TestData>
+					<c:Datum value = "0.02120432576804" xsi:type="ts:TS_double" nonStandardUnit="Volts" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.58" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Volts" value = "9.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "9.58" xsi:type="c:double" />
+									<ts:High value = "9.9" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d71-1d20-11eb-aa82-1cbfc054684e" name = "T6 (Frequency)">
+				<tr:TestData>
+					<c:Datum value = "18181.81818182" xsi:type="ts:TS_double" nonStandardUnit="Hz" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "Hz" value = "2480" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "Hz" value = "2520" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "2480" xsi:type="c:double" />
+									<ts:High value = "2520" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+			<tr:TestResult ID = "tr-7a510d72-1d20-11eb-aa82-1cbfc054684e" name = "T6 (Duty Cycle)">
+				<tr:TestData>
+					<c:Datum value = "81.81818181818" xsi:type="ts:TS_double" nonStandardUnit="%" flags = "0x0400"/>
+				</tr:TestData>
+				<tr:TestLimits>
+					<tr:Limits>
+						<c:LimitPair operator = "AND">
+							<c:Limit comparator = "GE">
+								<c:Datum nonStandardUnit = "%" value = "24.9" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+							<c:Limit comparator = "LE">
+								<c:Datum nonStandardUnit = "%" value = "25.1" xsi:type="ts:TS_double" flags = "0x0000"/>
+							</c:Limit>
+						</c:LimitPair>
+						<c:Extension>
+							<ts:TSLimitProperties>
+								<ts:RawLimits>
+									<ts:Low value = "24.9" xsi:type="c:double" />
+									<ts:High value = "25.1" xsi:type="c:double" />
+								</ts:RawLimits>
+							</ts:TSLimitProperties>
+						</c:Extension>
+					</tr:Limits>
+				</tr:TestLimits>
+				<tr:Outcome value = "Failed" />
+			</tr:TestResult>
+		</tr:Test>
+		<tr:Test ID = "29" name = "Program Relay Test" startDateTime = "2020-11-02T07:31:14.914"  endDateTime = "2020-11-02T07:31:14.957"  testReferenceID="ID#:Hkbuu8XN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='17'/>
+					<ts:TotalTime value='0.0431049'/>
+					<ts:ModuleTime value='0.0429093'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "30" name = "Control Power Light test" startDateTime = "2020-11-02T07:31:14.967"  endDateTime = "2020-11-02T07:31:17.207"  testReferenceID="ID#:+kUs9FTX6hGzwpRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='18'/>
+					<ts:TotalTime value='2.24002'/>
+					<ts:ModuleTime value='2.23952'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:Test ID = "31" name = "Restart Relay Test" startDateTime = "2020-11-02T07:31:17.213"  endDateTime = "2020-11-02T07:31:23.332"  testReferenceID="ID#:+f1k+MPN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='19'/>
+					<ts:TotalTime value='6.11909'/>
+					<ts:ModuleTime value='6.11869'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Failed" />
+		</tr:Test>
+		<tr:SessionAction ID = "32" name = "Message Popup" startDateTime = "2020-11-02T07:31:23.341"  endDateTime = "2020-11-02T07:31:25.274"  testReferenceID="ID#:ldS3KGTs6hGqaBy/wFRoTC">
+			<tr:Data>
+				<c:Collection>
+					<c:Item name = "ButtonHit">
+						<c:Datum value = "2" xsi:type="ts:TS_double" flags = "0x2000"/>
+					</c:Item>
+				</c:Collection>
+			</tr:Data>
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>MessagePopup</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='20'/>
+					<ts:TotalTime value='1.93254'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:Test ID = "33" name = "NLM TVS Test" startDateTime = "2020-11-02T07:31:25.274"  endDateTime = "2020-11-02T07:31:28.695"  testReferenceID="ID#:fTddcmTs6hGqaBy/wFRoTC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>PassFailTest</ts:StepType>
+					<ts:StepGroup>Main</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='22'/>
+					<ts:TotalTime value='3.42091'/>
+					<ts:ModuleTime value='3.42076'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:Outcome value = "Passed" />
+		</tr:Test>
+		<tr:SessionAction ID = "34" name = "Close Visa" startDateTime = "2020-11-02T07:31:28.737"  endDateTime = "2020-11-02T07:31:28.839"  testReferenceID="ID#:ldB0r8LN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Cleanup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='0'/>
+					<ts:TotalTime value='0.102098'/>
+					<ts:ModuleTime value='0.101926'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "35" name = "Set Power Supply" startDateTime = "2020-11-02T07:31:28.840"  endDateTime = "2020-11-02T07:31:30.141"  testReferenceID="ID#:ltB0r8LN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Cleanup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='1'/>
+					<ts:TotalTime value='1.30106'/>
+					<ts:ModuleTime value='1.3009'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+		<tr:SessionAction ID = "36" name = "Power Supply Off" startDateTime = "2020-11-02T07:31:30.142"  endDateTime = "2020-11-02T07:31:30.244"  testReferenceID="ID#:l9B0r8LN6hGzwJRTMBXirC">
+			<tr:Extension>
+				<ts:TSStepProperties>
+					<ts:StepType>Action</ts:StepType>
+					<ts:StepGroup>Cleanup</ts:StepGroup>
+					<ts:BlockLevel value='0'/>
+					<ts:Index value='2'/>
+					<ts:TotalTime value='0.10195'/>
+					<ts:ModuleTime value='0.101792'/>
+				</ts:TSStepProperties>
+			</tr:Extension>
+			<tr:ActionOutcome value = "Done" />
+		</tr:SessionAction>
+	</tr:ResultSet>
+	<tr:TestProgram>
+		<c:SerialNumber>
+			DESKTOP-U663FDU
+		</c:SerialNumber>
+		<tr:Configuration>
+			<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+				<c:Item name = "IncludeTSExtensionElements">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeAttributes">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeLimits">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeMeasurements">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeArrayMeasurement">
+					<c:Datum value = "2" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ArrayMeasurementFilter">
+					<c:Datum value = "3" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ArrayMeasurementMax">
+					<c:Datum value = "100" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeTimes">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "Format">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>xml</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NumericFormat">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>%$.13g</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ResultFilterExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>True</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "GeneratePath">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseTemporaryFile">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseSequenceFileNameAsPrefix">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "AddTimeAndDateToFileName">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachUUT">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ForceFileNameToBeUnique">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "AppendToFileIfItExists">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "DirectoryType">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>SequenceFileDirectory</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "Directory">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BaseName">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>Report</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "UseFormatForExtension">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "Extension">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFilePath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "DisableReportGeneration">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeStepResults">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "BodyGenerator">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>DLL</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "Colors">
+					<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+						<c:Item name = "LabelBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFFFFF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ValueBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#32FFFF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "UUTSeparator">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#0000E0</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "HeaderSeparator">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#8000CC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TableBorder">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#000000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "MainBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00C4C4</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "SetupBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF8000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "CleanupBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#ADD8E6</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ReportTextBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF32CC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Terminated">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#000080</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Failed">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Error">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Passed">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#008000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Skipped">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#B98028</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Done">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#008000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "Running">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFCC33</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TerminatedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#0000FF</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "ErrorBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF0000</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "PassedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00FF00</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "SkippedBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFFF00</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "DoneBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00FFCC</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "RunningBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FFCC33</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailureStackLabelBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#FF2020</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "FailureStackValueBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#D0D0D0</c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "BatchHeadingBg">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value>#00C4C4</c:Value>
+							</c:Datum>
+						</c:Item>
+					</c:Collection>
+				</c:Item>
+				<c:Item name = "DateAndTimeFormat">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>TimeFirst</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachBatch">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewBatchFileNameForEachBatch">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachTestSocket">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "StoreUUTReportWithBatchReport">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "BatchBaseName">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>BatchReport</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "LabelSize">
+					<c:Datum value = "26" xsi:type="ts:TS_double" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "RelStylesheetPath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>tr5_horizontal.xsl</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "StylesheetPath">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>C:\Program Files (x86)\National Instruments\TestStand 2019\Components\Models\TestStandModels\ATML\StyleSheets\tr5_horizontal.xsl</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "StylesheetMRU">
+					<c:IndexedArray dimensions="[5]" lowerBounds="[0]" upperBounds="[4]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>expand.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[3]">
+							<c:Value></c:Value>
+						</ts:Element>
+						<ts:Element position ="[4]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "ATMLStylesheetMRU">
+					<c:IndexedArray dimensions="[3]" lowerBounds="[0]" upperBounds="[2]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>TR_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>trml.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "StoreStylesheetAbsolutePath">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ProcessOnTheFly">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "PurgeOnTheFlyResults">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "GeneratePDFReport">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "IncludeStepResultComments">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "UseLocalizedDecimalPoint">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ReportStyle">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>atml5</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileSequentialModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_Report[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileParallelModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_Report[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "ReportFileBatchModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_BatchReport[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BatchFileBatchModelExpression">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value>"$(ClientFileDir)\\$(ClientFileName)_BatchReport[$(FileTime)][$(FileDate)]$(Unique).$(FileExtension)"</c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "NewFileNameForEachUUTStatus">
+					<c:Datum value = "false" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ReportPathMacroListString">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "BatchReportPathMacroListString">
+					<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+						<c:Value></c:Value>
+					</c:Datum>
+				</c:Item>
+				<c:Item name = "CheckIfMacroListIsUnchanged">
+					<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+				</c:Item>
+				<c:Item name = "ATML5StylesheetMRU">
+					<c:IndexedArray dimensions="[3]" lowerBounds="[0]" upperBounds="[2]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>tr5_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>tr5_report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>tr5_expand.xsl</c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+				<c:Item name = "Atml_Rpt_Options">
+					<c:Collection xsi:type="ts:TS_Collection" flags = "0x0000">
+						<c:Item name = "AddReportText">
+							<c:Datum value = "true" xsi:type="ts:TS_boolean" flags = "0x0000"/>
+						</c:Item>
+						<c:Item name = "ExtensionDLLAbsolutePath">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value></c:Value>
+							</c:Datum>
+						</c:Item>
+						<c:Item name = "TestResultsSchemaPath">
+							<c:Datum xsi:type="ts:TS_string" flags = "0x0000">
+								<c:Value></c:Value>
+							</c:Datum>
+						</c:Item>
+					</c:Collection>
+				</c:Item>
+				<c:Item name = "ATML6StylesheetMRU">
+					<c:IndexedArray dimensions="[5]" lowerBounds="[0]" upperBounds="[4]" xsi:type="ts:TS_stringArray" flags = "0x0000">
+						<ts:Element position ="[0]">
+							<c:Value>tr6_horizontal.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[1]">
+							<c:Value>tr6_report.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[2]">
+							<c:Value>tr6_expand.xsl</c:Value>
+						</ts:Element>
+						<ts:Element position ="[3]">
+							<c:Value></c:Value>
+						</ts:Element>
+						<ts:Element position ="[4]">
+							<c:Value></c:Value>
+						</ts:Element>
+					</c:IndexedArray>
+				</c:Item>
+			</c:Collection>
+		</tr:Configuration>
+	</tr:TestProgram>
+	<tr:TestStation>
+		<c:SerialNumber>DESKTOP-U663FDU</c:SerialNumber>
+	</tr:TestStation>
+	<tr:UUT>
+		<c:SerialNumber>NONE</c:SerialNumber>
+	</tr:UUT>
+	<tr:Extension>
+		<ts:TSResultSetProperties>
+			<ts:NumOfResults value = '32'/>
+			<ts:CriticalFailureStack>
+				<ts:CriticalFailureStackEntry resultID="17" stepName="Local Sense Test" sequenceName="MainSequence" sequenceFileName="PD500 Blueboard Checkout.seq"/>
+			</ts:CriticalFailureStack>
+		</ts:TSResultSetProperties>
+	</tr:Extension>
+</trc:TestResults>
+</trc:TestResultsCollection>
